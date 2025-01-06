@@ -22,5 +22,6 @@ public class AccountStepDefinitions extends PageFactoryManager{
 	@Then("I verify that am able to login to my account")
 	public void i_verify_that_am_able_to_login_into_my_account() {
 		Assert.assertTrue(login.verifyAccCreation());
+		
 	}
 }
