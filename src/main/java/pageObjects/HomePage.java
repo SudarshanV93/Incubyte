@@ -25,7 +25,7 @@ public class HomePage{
     	util.navigate(url);
     }
     
-    public void createAccount(String firstName, String lastName, String email, String password) {
+    public void createAccount(String firstName, String lastname, String email, String password) {
     	util.click(createAccountLink);
     	util.inputText(this.firstName, firstName);
     	util.inputText(this.lastName, lastName);
