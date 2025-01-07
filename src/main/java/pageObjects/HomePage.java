@@ -25,11 +25,11 @@ public class HomePage{
     	util.navigate(url);
     }
     
-    public void createAccount(String firstName, String lastname, String email, String password) {
+    public void createAccount(String firstName, String lastname, String Email, String password) {
     	util.click(createAccountLink);
     	util.inputText(this.firstName, firstName);
     	util.inputText(this.lastName, lastName);
-    	util.inputText(this.email, email);
+    	util.inputText(this.email, Email);
     	util.inputText(this.password, password);
     	util.inputText(this.resetPassword, password);
     	util.click(submitBtn);
