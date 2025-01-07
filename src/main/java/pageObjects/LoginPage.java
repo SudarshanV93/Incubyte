@@ -16,7 +16,7 @@ public class LoginPage {
 
 	By accountSuccessMsg = By.xpath("//div[contains(@class,'success message')]");
 	
-	public boolean verifyAccCreation() {
+	public boolean verifyAccountCreation() {
 		return util.waitAndVerifyElement(accountSuccessMsg);
 		
 	}
